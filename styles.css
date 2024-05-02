@@ -14,7 +14,7 @@
     align-items: center; 
 }
 .img{
- width: 90%;
+ /* width: 90%; */
  height: 90%;
 }
 .wrapper{
@@ -45,22 +45,27 @@ section{
 }
 button{
     width:82px ;
-    background-color: #F4D04E;
+    background-color: hsl(47, 88%, 63%);;
     border: none;
-    padding: 5px;
-    border-radius: 5px;
+    font-weight: bold;
+    padding-block: 6px;
+    padding-inline: 12px;
+    font-size: 14px;
+     border-radius: 3px;
     margin-top: -10px;
     font-weight: bold;
    
 }
 h3{
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 24px;
    
 }
 .body-text{
     color: grey;
     font-size: 15px;
     font-weight: 100;
+    line-height: 24px;
    
 }
 h3:hover{
@@ -79,7 +84,7 @@ h3:hover{
 }
 @media  screen and (max-width:456px) {
     .wrapper:hover{
-        box-shadow: none;
+        box-shadow:  6px 9px 2px black ;
     }
 
     h3:hover{
