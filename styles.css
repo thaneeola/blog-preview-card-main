@@ -20,6 +20,7 @@
 .wrapper{
     background-color:  hsl(0, 0%, 100%);
    display: flex;
+   border: 1px solid black;
    box-shadow:  6px 9px 2px black ;
    flex-direction: column;
   justify-content: center;
@@ -53,7 +54,7 @@ button{
 }
 h3{
     font-weight: bold;
-    border: 2px solid black;
+   
 }
 .body-text{
     color: grey;
