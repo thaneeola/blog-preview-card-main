@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 *{
     margin: 0;
     padding:0;
     box-shadow: none;
-    font-family: serif;
+  
     cursor: default;
 }
+
+
+
 .body{
     width: 100vw;
     height: 100vh;
@@ -14,8 +20,8 @@
     align-items: center; 
 }
 .img{
- width: 98%; 
- height: 90%;
+ width: 100%; 
+ /* height: 90%; */
 }
 .wrapper{
     background-color:  hsl(0, 0%, 100%);
@@ -47,7 +53,7 @@ button{
     width:82px ;
     background-color: hsl(47, 88%, 63%);;
     border: none;
-    font-weight: bold;
+    font-weight: 500;
     padding-block: 6px;
     padding-inline: 12px;
     font-size: 14px;
@@ -57,13 +63,13 @@ button{
    
 }
 h3{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 24px;
    
 }
 .body-text{
     color: grey;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 100;
     line-height: 24px;
    
